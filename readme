@@ -1,0 +1,38 @@
+## Project Description
+
+This project simulates a customer support dataset with:
+- 30,000 synthetic customers
+- Realistic support ticket texts generated using OpenAI GPT
+- Sentiment analysis (positive, neutral, negative)
+- Urgency detection (urgent vs non-urgent)
+- Structured customer attributes (age, plan, monthly usage)
+
+**Key Analysis Done:**
+- Kaplan-Meier Survival Curves
+- Cox Proportional Hazards Modeling
+- Churn Rate vs Monthly Usage
+- Risk Table of Customers
+- Age vs churn
+- Frequency of complaints
+- Sentiment vs Survival
+
+## Final Deliverables
+- **Tableau Dashboard** showing:
+  - KPIs (Total Customers, Churn Rate, Avg Survival, % Urgent)
+  - Urgency Pie Chart
+  - Sentiment Bar Chart
+  - Smooth pie Chart (Monthly Usage vs Churn)
+  - Frequency of complaints & Age vs churn
+- **Fully interactive filters**: Sentiment, Urgency, Subscription Plan
+
+## Technologies Used
+- **Python** (Pandas, TextBlob, Lifelines)
+- **Tableau Public** (Dashboard visualization)
+- **OpenAI GPT API** (for text generation)
+- **Jupyter Notebook** (for survival analysis)
+                        
+## How to Run
+1. Clone the repository
+2. Open `code/` folder for data generation and modeling
+3. Open https://public.tableau.com/app/profile/saipriya.nallamala/viz/shared/XNFGC4P2T with Tableau Public
+4. Explore the dashboard interactively.
